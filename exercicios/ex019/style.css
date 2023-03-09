@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/*em html e id em css e #
+em html e class em css e .*/  
+
+body{font: 16px;
+    background-color: bisque;
+font-family: Arial, Helvetica, sans-serif;}
+
+h1{color: rgb(58, 58, 207);
+font-size: medium;
+text-indent: 30px;}
+
+h1#principal{text-align: center;}
+
+h2{color: rgb(66, 209, 209);
+text-align: justify;}
+
+.basico{background-color: blueviolet;}
+.intermediario{color: yellow;}
+.intermediario{background-color: black;}
+
+.destaque{background-color: saddlebrown; color: blue;}

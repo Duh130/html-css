@@ -1,0 +1,19 @@
+
+header{background-color: slategrey;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+li{margin-top: 1px;
+    text-align: center;
+    width: 150px;
+height: 50px;
+background-color: darkgrey;
+display: inline-block}
+
+h1{margin: 1px;
+margin-bottom: 1px;
+padding: 2px 2px;}
+body{margin: 100%;
+padding: 100%;}
+
+footer{background-color: darkgray;
+text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
