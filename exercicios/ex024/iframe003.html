@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframe</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe{
+            background-color: slategray;
+            width: 95vw;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>vamos la abri iframe clicando</h1>
+    <ul>
+        <li><a href="iframe001.html" target="tela">pagina 1</a></li>
+        <li><a href="iframe002.html" target="tela">pagian 2</a></li>
+        <li><a href="pag001.html" target="tela">pagina 3</a></li>
+    </ul>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium corporis quaerat praesentium, aliquid ullam veritatis nostrum molestiae corrupti sunt? Natus, earum recusandae! Dolorem repudiandae adipisci, a nemo eos ducimus expedita.</p>
+  <p>
+    <iframe id="frame" name="tela" src="" frameborder="0"></iframe>
+  </p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ad illo et cum illum id sapiente eos nesciunt, iste eius aliquam? Optio eaque labore veniam quas in dolore fugiat recusandae!</p>
+  <p>
+    <iframe srcdoc="<h1>escolhas umas das opcoes acima</>" frameborder="0"></iframe>
+  </p>
+</body>
+</html>
