@@ -8,7 +8,45 @@
 </head>
 <body>
     <h1>
-        exemplo de formulario8
+        exemplo de formulario
     </h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+<p>
+    <label for="iest">estado</label>
+   <select name="estado" id="iest">
+<optgroup label="sudeste">
+    <option value="" selected>---escolha---</option>
+    <option value="sp">sao paulo</option>
+    <option value="rj">rio de janeio</option>
+    <option value="es">espirito santo</option>
+</optgroup>
+
+<optgroup label="norte">
+    <option value="amz">amazoanas</option>
+    <option value="acr">acre</option>
+    <option value="ror">roraima</option>
+</optgroup>
+   </select>
+</p>
+<p>
+    <label for="iprof"></label>
+   <input type="text" name="prof" id="iprof" list="listprof">
+<datalist id="listprof">
+    <option value="adm">adminitrador</option>
+    <option value="sup">superviso</option>
+</datalist>
+</p>
+<p>
+    <input type="submit" value="enviar">
+    <input type="reset" value="limpar">
+</p>
+<p>
+    <label for="img">mensagem</label><br>
+    <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+
+</p>
+
+
+    </form>
 </body>
 </html>
