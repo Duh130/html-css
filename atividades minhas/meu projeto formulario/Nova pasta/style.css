@@ -1,0 +1,34 @@
+*{
+margin: 3;
+padding: 0;
+border: 2;
+font-family: sans-serif;
+}
+
+body{
+    background-color: floralwhite;
+    margin-top: 0%;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: rgb(53, 24, 68);
+    box-shadow: 1px solid black;
+    border: 1px solid black;
+}
+.titulo{text-align: center;}
+
+#email{
+    margin-top: 2%;
+}
+
+form{
+    background-color: white;
+    padding :1%
+}
+div{
+    margin-left: 40%;
+}
+.botao{display: block;
+    height: 20px;
+    box-shadow: 5px solid black;
+}
+

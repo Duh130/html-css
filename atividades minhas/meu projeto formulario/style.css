@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+*{margin: 0;
+padding: 0;
+font-family:sans-serif;
+color: rgb(8, 73, 73);
+border: 2;}
+
+body{
+    background-color: antiquewhite;
+    color: aqua;
+    margin-top: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+fieldset{
+    float: left;
+    margin-right: 1em;
+}
+
+h1,h2,h3{text-align: center;
+    
+    margin-top: 20px;
+}
+#subtitulo{
+    font-size: 1em
+}
+
+.div1{
+width: auto;
+position: relative;
+margin: 0 auto;
+border: 1px solid black;
+font-size: 1.5em;
+
+}
+
+#selecione{
+font-size: 1.5em;
+
+}
+
+.div3{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    padding: 5px 0px 5px 5px;
+    border-bottom: 1px solid black;
+border-top: 1px solid black;
+}
+label{
+
+    width: 100%;
+}
+#isugestao
+{
+    display: block;
+    width: 26em;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px solid black;
+   
+
+}
+#botao{
+    display: inline-block;
+    
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#">
+        <h1 class="titulo">Formulario html</h1>
+<div>
+    <label for="name"><strong>Nome</strong></label>
+    <input type="text" name="name" id="name" required>
+    <label for="sobrenome"><strong>Sobrenome</strong></label>
+    <input type="text" name="sobrenome" id="sobrenome"><br>
+    <label for="email"><strong>Email</strong></label>
+    <input type="email" name="email" id="email" required>
+    
+    <h1>
+        Qual sua idade?
+    </h1>
+    <select name="idade" id="idade">
+    <option value="20">20</option>
+    <option value="30">30</option>
+    <option value="40">40</option>
+    
+    </select>
+    <h1>quantos filhos vs tem?</h1>
+    <label for="filhos"> 2 filhos</label>
+    <input type="checkbox" name="filhos" id="2filhos">
+    <input type="checkbox" name="filhos" id="filhos">
+    <label for="flhos">3 filhos</label>
+    
+    <h1>qual a idade deles</h1>
+    <input type="radio" name="idade" id="idade2">
+    <label for="idade2">8 anos</label>
+    <input type="radio" name="idade" id="idade2">
+    <label for="idade2">9 anos</label>
+    
+    
+    <h1>deixe sua mensagem</h1>
+    <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+</div>
+<div class="botao">
+    
+    <input type="submit" value="enviar">
+    <input type="reset" value="apagar">
+</div>
+
+    </form>
+</body>
+</html>
